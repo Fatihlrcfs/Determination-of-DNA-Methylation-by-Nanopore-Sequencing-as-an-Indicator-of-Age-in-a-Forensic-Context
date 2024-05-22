@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 
 # Read data
-df = pd.read_csv("merged_sampleselected_fiftycover_output.tsv", sep="\t")
+df = pd.read_csv("merged_sampleselected_hundredcover_output.tsv", sep="\t")
 
 # file name
 samples = df.columns[3:].to_list()
