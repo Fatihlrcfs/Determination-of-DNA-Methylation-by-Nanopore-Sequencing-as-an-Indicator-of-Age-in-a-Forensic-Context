@@ -7,7 +7,7 @@ percg_file="sample_method-freq-perCG-combStrand.tsv"
 cpg_final_file="CpG_final.txt"
 
 # Output file
-output_file="age21bc15_deepsignal_cpg.tsv"
+output_file="age21bc15_method_cpg.tsv"
 
 # Create the header line
 echo -e "Gene\tchr\tstart\tend\tcover\tmethylation" > $output_file
